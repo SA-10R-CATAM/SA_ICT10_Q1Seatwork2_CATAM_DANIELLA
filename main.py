@@ -1,23 +1,25 @@
+from pyscript import display
 # Restaurant Order System using Python Data Types
+
 # 1. String data type
-restaurant_name = "Sukuna's Domain"  # string
+restaurant_name = "DK Caffè"  # string
 owner_name = "Daniella Catam"  # string
 
 # 2. Integer data type
 year_established = 2025  # integer
 
 # 3. Float data type
-tax_rate = 0.05  # float (5% tax)
-popular_item_price = 125.00  # float (menu item price)
+tax_rate = 0.08  # float (8% tax)
+popular_item_price = 150.00  # float (menu item price)
 
 # 4. Boolean data type
 has_delivery = True  # boolean
 
 # 5. List data type
-product_names = ["Strawberry Matcha Latte", "Croissant with Nutella", "Pomegranate Black Tea"]  # list
+product_names = ["Strawberry Matcha Latte", "Croissant with Nutella", "Pomegrante Black Tea", "Cheese Roll", "Bottled Water"]  # list
 
 # 6. Tuple data type
-business_hours = ("7:00 AM", "10:00 PM")  # tuple
+business_hours = ("11:00 AM", "10:00 PM")  # tuple
 
 # 7. Dictionary data type
 menu_prices = {  # dictionary
@@ -29,7 +31,7 @@ menu_prices = {  # dictionary
 }
 
 # 8. Set data type
-common_allergens = {"egg", "dairy", "nuts"}  # set
+common_allergens = {"gluten", "dairy", "nuts"}  # set
 
 # ------------------- DISPLAY -------------------
 
